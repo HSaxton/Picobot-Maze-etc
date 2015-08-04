@@ -1,0 +1,27 @@
+0 ***x -> s 0 
+0 *exs -> w 0 
+0 *xws -> e 0 # First three actions put pico in very bottom
+0 xews -> n 7 # up one due to an error starting on right side w/o 7 and 8
+
+
+1 *x** -> e 1 #1 sweeps to the east
+1 xe** -> n 3 
+1 NEx* -> w 5 #1 clears stray west block 
+
+2 **x* -> w 2 #2 sweeps to the west
+2 x*w* -> n 4
+2 NxW* -> e 6 #2 clears stray east block
+
+3 *x** -> e 2 # up after state 1 on 4th quadrant
+
+4 **x* -> w 1 # up after state 2 on 3rd quadrant
+
+5 x*** -> n 2 # up after state 2 on 1st quadrant
+
+6 x*** -> n 1 # up after state 1 on 2nd quadrant
+
+7 **x* -> w 8 #clears the first row 
+
+8 *x** -> e 1 #clears the first row
+
+#NEWS
